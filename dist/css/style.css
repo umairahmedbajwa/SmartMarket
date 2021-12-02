@@ -112,6 +112,9 @@ a:hover {
 .fw-normal {
 	font-weight: 400 !important;
 }
+.active {
+	color: black !important;
+}
 .h-primary:hover {
 	color: var(--primary) !important;
 	text-decoration: none;
@@ -308,6 +311,7 @@ ul.content > li {
 	position: relative;
 }
 
+ul.sections-title,
 h3.sections-title {
 	font-size: 18px;
 	font-weight: 500;
@@ -321,6 +325,7 @@ h3.sections-title {
 	text-transform: none;
 }
 
+ul.sections-title::after,
 h3.sections-title:after {
 	content: "";
 	background: #e23e1d;
@@ -330,6 +335,23 @@ h3.sections-title:after {
 	z-index: 1;
 	left: 0;
 	bottom: 0;
+}
+
+ul.sections-title {
+	list-style-type: none;
+	padding: 0 0 18px;
+}
+
+ul.sections-title li {
+	color: #777;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+ul.sections-title li:hover {
+	color: black;
+	transition: all 0.3s;
 }
 
 .owl-item {
@@ -354,4 +376,23 @@ p.product-vendor span {
 	font-size: 12px;
 	/* line-height: 30px; */
 	text-transform: uppercase;
+}
+
+.block-category-item {
+	position: relative;
+}
+
+.category-block {
+	position: absolute;
+	bottom: 15px;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.category-block a:hover {
+	color: var(--primary);
 }
