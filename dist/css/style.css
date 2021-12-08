@@ -20,6 +20,7 @@ body {
 * {
 	box-sizing: border-box;
 	/* outline: 1px solid red; */
+	/* width: 100%; */
 }
 
 /* Typography */
@@ -376,7 +377,7 @@ ul.sections-title li:hover {
 	transition: all 0.3s;
 }
 
-.owl-item {
+.owl-item-1 {
 	border: 1px solid var(--primary);
 	padding: 10px 20px;
 }
@@ -395,10 +396,10 @@ ul.sections-title li:hover {
 	border: none;
 	font-weight: 500;
 	position: absolute;
-	top: 285px;
+	top: 66%;
 	/* left: 25%; */
-	transition: all 0.35s;
 	width: 83%;
+	transition: all 0.35s;
 }
 
 .btn-main:hover {
@@ -411,11 +412,18 @@ ul.sections-title li:hover {
 }
 
 .owl-item-main:hover .add-to-cart {
-	opacity: 1;
+	/* opacity: 1; */
+	display: block;
+	transition: all 1.5s;
+}
+
+.hg-390 {
+	height: 415px;
 }
 
 .owl-item-main:hover .btn-main {
-	display: block !important;
+	display: block;
+	transition: all 1.35s;
 }
 
 .product-title {
@@ -544,11 +552,11 @@ p.product-vendor span {
 } */
 
 .img-text-2 h6 span {
-	font-size: 14px;
 	color: #b7b7b7;
-	text-decoration: line-through;
+	font-size: 14px;
 	font-weight: 300;
 	padding-left: 6px;
+	text-decoration: line-through;
 }
 
 .img-text-2 h4 {
@@ -580,11 +588,12 @@ p.product-vendor span {
 	width: 40px;
 	font-size: 14px;
 	border: 1px solid #e6e6e6;
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	line-height: 40px;
 	border-radius: 100%;
 	color: #e23e1d;
+	float: right;
 }
 
 .add-to-wishlists:hover {
@@ -593,7 +602,9 @@ p.product-vendor span {
 }
 
 .add-to-cart {
-	opacity: 0;
+	/* opacity: 0; */
+	display: none;
+	transition: all 1.5s;
 }
 
 .cart-button:hover {
@@ -664,6 +675,11 @@ p.product-vendor span {
 
 .logo-brands {
 	border: 1px solid #ebebeb;
+	margin: 0 auto;
+	/* align-items: center; */
+	text-align: center;
+	/* justify-content: center; */
+	/* justify-items: center; */
 }
 
 .logo-link img {
@@ -677,3 +693,137 @@ p.product-vendor span {
 		grid-template-columns: repeat(1, 1fr);
 	}
 } */
+
+@media only screen and (max-width: 600px) {
+	.container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.col-md-2,
+	.col-md-3,
+	.col-md-4,
+	.col-md-5,
+	.col-md-6,
+	.col-lg-2,
+	.col-lg-3,
+	.col-lg-4,
+	.col {
+		/* padding-top: 10px; */
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 100% !important;
+	}
+	.col {
+		flex: none;
+	}
+	/* [class*="col"] {
+		width: 100%;
+	} */
+	.img-text-2 {
+		top: 20px;
+	}
+	.img-text-2 h4 {
+		font-size: 24px;
+		line-height: 30px;
+		margin-top: 10px;
+	}
+	.add-to-cart {
+		opacity: 1;
+		display: block;
+	}
+	.add-to-wishlists {
+		float: right;
+	}
+	.btn-main {
+		display: block;
+		top: 74%;
+		width: 88.5%;
+	}
+	.hg-390 {
+		height: auto;
+	}
+	.mobile-nav {
+		display: none;
+	}
+}
+
+/* .owl-buttons div {
+	display: inline-block;
+	font-size: 16px;
+	height: 26px;
+	line-height: 26px;
+	top: -60px;
+	width: 26px;
+	margin: 0 2px;
+	position: static;
+} */
+.item {
+	/* padding: 0 8px !important; */
+}
+.owl-next,
+.owl-prev {
+	/* border-color: #eee; */
+	/* background-color: #eee; */
+	/* color: #000; */
+	/* display: inline-block; */
+	/* font-size: 16px; */
+	/* height: 26px; */
+	/* line-height: 26px; */
+	/* top: -60px; */
+	width: 26px;
+	margin: 0 5px;
+	/* padding: 0 4px; */
+	position: static;
+}
+/* .owl-next::after {
+	content: "";
+	margin: 0 4px;
+} */
+button.owl-next {
+	width: 26px;
+	margin: 0 4px;
+	background-color: red;
+}
+.owl-nav {
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	top: -60px;
+	/* width: 26px; */
+	/* margin: 0; */
+
+	/* border-color: #eee; */
+	/* background-color: #eee; */
+	/* color: #000; */
+	/* position: static; */
+}
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next {
+	background-color: #eee !important;
+	border-color: #eee;
+	width: 26px;
+	font-size: 16px;
+	height: 26px;
+	line-height: 26px;
+}
+.owl-nav button.owl-prev:hover,
+.owl-nav button.owl-next:hover {
+	background-color: #000 !important;
+	color: var(--white);
+	transition: all 0.35s;
+	border-color: #eee;
+}
+.owl-nav button.owl-prev:focus,
+.owl-nav button.owl-next:focus {
+	outline: none !important;
+}
+/* .owl-nav button.owl-next {
+	background-color: #eee !important;
+	border-color: #eee;
+	width: 26px;
+	font-size: 16px;
+	height: 26px;
+	line-height: 26px; */
