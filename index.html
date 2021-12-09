@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap" rel="stylesheet">
-
-
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap" rel="stylesheet" />
 
 		<!-- via node-package -->
 		<link rel="stylesheet" href="node_modules/fontawesome-4.7/css/font-awesome.min.css" />
@@ -31,16 +28,15 @@
 		<header>
 			<div class="header-section">
 				<!-- first nav  -->
-				<div class="container-fluid bg-navGrey">
+				<div class="container-fluid bg-navGrey mobile-h-40">
 					<div class="row">
 						<div class="col-md-6 flex-container">
-							<div class="header-top mobile-nav">SHOP EVENTS & SAVE UP TO <span class="c-primary">65% OFF!</span>
-							</div>
-							<div class="header-top">Call Us: <span class="c-primary">001-1234-88888</span></div>
+							<div class="header-top">SHOP EVENTS & SAVE UP TO <span class="c-primary">65% OFF!</span></div>
+							<div class="header-top mobile-nav">Call Us: <span class="c-primary">001-1234-88888</span></div>
 						</div>
 						<div class="col-md-6 flex-container-right">
-							<div class="header-top text-right">
-								<span class="px-5 mobile-nav"> USD<i class="fa fa-angle-down"></i> </span>
+							<div class="header-top text-right mobile-nav">
+								<span class="px-5"> USD<i class="fa fa-angle-down"></i> </span>
 								<a href="#" class="h-primary">
 									<i class="fab fa-facebook-f px-2"></i>
 								</a>
@@ -58,7 +54,7 @@
 					</div>
 				</div>
 				<!-- second nav  -->
-				<div class="container-fluid">
+				<div class="container-fluid mobile-nav">
 					<div class="row">
 						<div class="col-md-3 flex-container">
 							<div class="header-left">Smart<span class="c-primary">Market </span></div>
@@ -97,26 +93,66 @@
 					</div>
 				</div>
 				<!-- third nav  -->
+				<!-- codde test navbar -->
+				<nav class="navbar  navbar-expand-lg navbar-light bg-light mg-h">
+					<div class="container-fluid">
+					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <i class="fas fa-search"></i>
+					  <img src="//cdn.shopify.com/s/files/1/2506/1620/files/logo-1_medium.png" alt="smartmarket-01">
+					  <a href="#"
+								><i class="far fa-clipboard fa-lg"><span class="badge">0</span></i></a
+							>
+
+					  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Shop</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Features</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Pages</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Special offer</a>
+						  </li>
+						</ul>
+
+					  </div>
+					</div>
+				  </nav>
+				<!-- teseting -->
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-2 px-0">
-							<div class="parent-title">
-								<i class="fas fa-bars pr-4 pl-1"></i> ALL DEPARTMENTS
-							</div>
+							<div class="parent-title"><i class="fas fa-bars pr-4 pl-1"></i> ALL DEPARTMENTS</div>
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-7 mobile-nav">
 							<div class="input-group mb-3">
-								<input type="text" class="form-control search-input" placeholder="Search Product"
-									aria-label="Recipient's username" aria-describedby="button-addon2">
-								<button class="btn btn-outline-secondary btn-search" type="button"
-									id="button-addon2">SEARCH</button>
+								<input
+									type="text"
+									class="form-control search-input"
+									placeholder="Search Product"
+									aria-label="Recipient's username"
+									aria-describedby="button-addon2"
+								/>
+								<button class="btn btn-outline-secondary btn-search" type="button" id="button-addon2">SEARCH</button>
 							</div>
 						</div>
-						<div class="col-lg-3 text-right right-icons">
-							<a href="#"> <i class="fa fa-truck fa-lg px-2  "></i></a>
+						<div class="col-lg-3 text-right right-icons mobile-nav">
+							<a href="#"> <i class="fa fa-truck fa-lg px-2"></i></a>
 							Track you order
 							<a href="#"><i class="far fa-heart fa-lg px-4"></i></a>
-							<a href="#"><i class="far fa-clipboard fa-lg"><span class="badge">0</span></i></a>
+							<a href="#"
+								><i class="far fa-clipboard fa-lg"><span class="badge">0</span></i></a
+							>
 						</div>
 					</div>
 				</div>
@@ -128,190 +164,223 @@
 				<!-- Side Nav -->
 				<div class="col-md-2 px-0">
 					<ul class="nav navbar-nav nav-verticalmenu">
-
-						<li class="parent dropdown active">
-						  <a href="/">
-							<span class="menu-icon menu-icon-1">
-							  <i class="fa fa-laptop "></i>
-							  <span class="menu-title">Computer</span>
-							</span>
-						  </a>
-						  <i class="fa fa-angle-right"></i>
+						<li class="parent dropdown active" >
+							<a href="/" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="menu-icon menu-icon-1">
+									<i class="fa fa-laptop"></i>
+									<span class="menu-title">Computer</span>
+								</span>
+							</a>
+							<i class="fa fa-angle-right"></i>
+							<ul class="dropdown-menu level1">
+								<li><a href="#">Notebook PC</a></li>
+								<li><a href="#">All In One PC</a></li>
+								<li><a href="#">Ultrabook</a></li>
+								<li><a href="#">Hybrid Laptop</a></li>
+								<li><a href="#">Mobile Work Station</a></li>
+							  </ul>
 						</li>
 
-						<li >
-						  <a href="/" title="Shop" target="_self">
-							<span class="menu-icon">
-							  <i class="fa fa-tv "></i>
-							  <span class="menu-title">Shop</span>
-							</span>
-						  </a>
-						  <i class="fa fa-angle-right"></i>
+						<li class="parent dropdown active" >
+							<a href="/" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="menu-icon menu-icon-1">
+									<i class="fa fa-laptop"></i>
+									<span class="menu-title">Shop</span>
+								</span>
+							</a>
+							<i class="fa fa-angle-right"></i>
+							<ul class="dropdown-menu level1">
+								<li><a href="#"><h4 class="nav-heading">Computer</h4></a></li>
+								<li><a href="#">Notebook PC</a></li>
+								<li><a href="#">All In One PC</a></li>
+								<li><a href="#">Ultrabook</a></li>
+								<li><a href="#">Hybrid Laptop</a></li>
+								<li><a href="#">Mobile Work Station</a></li>
+
+								<li><a href="#"><h4 class="nav-heading">Home Audio & Theater</h4></a></li>
+								<li><a href="#">Surveillance</a></li>
+								<li><a href="#">Security Camers</a></li>
+								<li><a href="#">Smart & Wifi</a></li>
+								<li><a href="#">Smart Lighting</a></li>
+								<li><a href="#">Home Automation</a></li>
+
+							  </ul>
 						</li>
 
-						<li >
-						  <a href="/" title="Camera &amp; Photography">
+						<li>
+							<a href="/" title="Camera &amp; Photography">
+								<i class="fa fa-camera"></i>
 
-							<i class="fa fa-camera "></i>
-
-							<span class="menu-title">Camera &amp; Photography</span>
-						  </a>
+								<span class="menu-title">Camera &amp; Photography</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Headphones">
+						<li>
+							<a href="/" title="Headphones">
+								<i class="fa fa-headphones"></i>
 
-							<i class="fa fa-headphones"></i>
-
-							<span class="menu-title">Headphones</span>
-						  </a>
+								<span class="menu-title">Headphones</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Musical Instruments">
+						<li>
+							<a href="/" title="Musical Instruments">
+								<i class="fa fa-music"></i>
 
-							<i class="fa fa-music "></i>
-
-							<span class="menu-title">Musical Instruments</span>
-						  </a>
+								<span class="menu-title">Musical Instruments</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Smart phone &amp; Tablets">
+						<li>
+							<a href="/" title="Smart phone &amp; Tablets">
+								<i class="fa fa-mobile"></i>
 
-							<i class="fa fa-mobile "></i>
-
-							<span class="menu-title">Smart phone &amp; Tablets</span>
-						  </a>
+								<span class="menu-title">Smart phone &amp; Tablets</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Accessories">
+						<li>
+							<a href="/" title="Accessories">
+								<i class="fa fa-flash"></i>
 
-							<i class="fa fa-flash "></i>
-
-							<span class="menu-title">Accessories</span>
-						  </a>
+								<span class="menu-title">Accessories</span>
+							</a>
 						</li>
 
-						<li class="parent dropdown active">
-						  <a href="/">
-							<span class="menu-icon menu-icon-8">
-
-							  <i class="fa fa-microphone "></i>
-
-							  <span class="menu-title">Home Audio &amp; Theater</span>
-							</span>
-						  </a>
-						  <i class="fa fa-angle-right"></i>
-
+						<li class="parent dropdown active" >
+							<a href="/" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="menu-icon menu-icon-1">
+									<i class="fa fa-laptop"></i>
+									<span class="menu-title">Home Audio & Theater</span>
+								</span>
+							</a>
+							<i class="fa fa-angle-right"></i>
+							<ul class="dropdown-menu level1">
+								<li><a href="#"><h4 class="nav-heading">Home Audio & Theater</h4></a></li>
+								<li><a href="#">Surveillance</a></li>
+								<li><a href="#">Security Camers</a></li>
+								<li><a href="#">Smart & Wifi</a></li>
+								<li><a href="#">Smart Lighting</a></li>
+								<li><a href="#">Home Automation</a></li>
+							  </ul>
 						</li>
 
-						<li >
-						  <a href="/" title="Printer">
+						<li>
+							<a href="/" title="Printer">
+								<i class="fa fa-print"></i>
 
-							<i class="fa fa-print "></i>
-
-							<span class="menu-title">Printer</span>
-						  </a>
+								<span class="menu-title">Printer</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Fax machine">
+						<li>
+							<a href="/" title="Fax machine">
+								<i class="fa fa-print"></i>
 
-							<i class="fa fa-print "></i>
-
-							<span class="menu-title">Fax machine</span>
-						  </a>
+								<span class="menu-title">Fax machine</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Household goods">
+						<li>
+							<a href="/" title="Household goods">
+								<i class="fa fa-utensil-spoon"></i>
 
-							<i class="fa fa-utensil-spoon "></i>
-
-							<span class="menu-title">Household goods</span>
-						  </a>
+								<span class="menu-title">Household goods</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Watch">
+						<li>
+							<a href="/" title="Watch">
+								<i class="fa fa-clock-o"></i>
 
-							<i class="fa fa-clock-o "></i>
-
-							<span class="menu-title">Watch</span>
-						  </a>
+								<span class="menu-title">Watch</span>
+							</a>
 						</li>
 
-						<li >
-						  <a href="/" title="Other">
+						<li>
+							<a href="/" title="Other">
+								<i class="fa fa-random"></i>
 
-							<i class="fa fa-random "></i>
-
-							<span class="menu-title">Other</span>
-						  </a>
+								<span class="menu-title">Other</span>
+							</a>
 						</li>
-
-					  </ul>
+					</ul>
 				</div>
 				<!-- Side Nav End -->
 				<div class="col-md-6">
-
-						<!-- <div class="row"> -->
-							<!-- <div class="col-md-8"> -->
-								<img class="b-lazy slide-img" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/files/slide-3.jpg" alt="" draggable="false">
-							<!-- </div> -->
+					<!-- <div class="row"> -->
+					<!-- <div class="col-md-8"> -->
+					<img class="b-lazy slide-img" style="width: 100%" src="//cdn.shopify.com/s/files/1/2506/1620/files/slide-3.jpg" alt="" draggable="false" />
+					<!-- </div> -->
 				</div>
 				<div class="col-lg-4">
 					<div class="row">
-
 						<div class="col-md-6">
 							<div class="img-container">
-								<img class="lazy" style="width: 100%;" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-1.jpg" alt="">
+								<img class="lazy" style="width: 100%" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-1.jpg" alt="" />
 								<div class="img-text">
 									<h6 class="c-primary">Clothing</h6>
-									<h4 class="h4">Extra <strong><b>30%<br>Off</b></strong> All Sale<br>Styles</h4>
+									<h4 class="h4">
+										Extra
+										<strong
+											><b>30%<br />Off</b></strong
+										>
+										All Sale<br />Styles
+									</h4>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-md-6">
 							<div class="img-container">
-								<img class="lazy" style="width: 100%;" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-2.jpg" alt="">
+								<img class="lazy" style="width: 100%" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-2.jpg" alt="" />
 								<div class="img-text">
 									<h6 class="c-primary">Tech</h6>
-									<h4 class="h4">Riley <strong><b>Smart<br>Home</b></strong> Patrol<br>Robot</h4>
+									<h4 class="h4">
+										Riley
+										<strong
+											><b>Smart<br />Home</b></strong
+										>
+										Patrol<br />Robot
+									</h4>
 								</div>
 							</div>
 						</div>
-
 					</div>
 
 					<div class="row mt-4">
-
 						<div class="col-md-6">
 							<div class="img-container">
-								<img class="lazy" style="width: 100%;" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-3.jpg" alt="">
+								<img class="lazy" style="width: 100%" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-3.jpg" alt="" />
 								<div class="img-text">
 									<h6 class="c-primary">Beauty</h6>
-									<h4 class="h4">20% Off Or <br> More <strong><b>Beauty<br>Products</b></strong></h4>
+									<h4 class="h4">
+										20% Off Or <br />
+										More
+										<strong
+											><b>Beauty<br />Products</b></strong
+										>
+									</h4>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-md-6">
 							<div class="img-container">
-								<img class="lazy" style="width: 100%;" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-4.jpg" alt="">
+								<img class="lazy" style="width: 100%" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-4.jpg" alt="" />
 								<div class="img-text">
 									<h6 class="c-primary">Electronics</h6>
-									<h4 class="h4">Globe Electric <br><strong><b>House & <br>Appliances</b></strong> </h4>
+									<h4 class="h4">
+										Globe Electric <br /><strong
+											><b>House & <br />Appliances</b></strong
+										>
+									</h4>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
-						<!-- </div> -->
+				<!-- </div> -->
 			</div>
 		</div>
 
@@ -326,15 +395,19 @@
 						<div class="item">
 							<div class="owl-item-1">
 								<div class="owl-details">
-								<p class="product-vendor">
-									<span>
-										SHOES
-									</span>
-								</p>
-								<h3><a href="#" class="product-title c-primary">ASICS Gel Lyte III "Denim" Pack</a></h3>
+									<p class="product-vendor">
+										<span> SHOES </span>
+									</p>
+									<h3><a href="#" class="product-title c-primary">ASICS Gel Lyte III "Denim" Pack</a></h3>
 								</div>
-								<img class="feature-images lazy" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
-								<div class=" flex-container">
+								<img
+									class="feature-images lazy"
+									style="width: 100%"
+									src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+									data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+									alt='ASICS Gel Lyte III "Denim" Pack'
+								/>
+								<div class="flex-container">
 									<div class="price-rating">
 										<div class="product-price">from $49.99</div>
 										<div class="product-rating flex-container-right">
@@ -346,24 +419,26 @@
 										</div>
 									</div>
 								</div>
-									<div class="clock mt-4">
-										Expired
-									</div>
+								<div class="clock mt-4">Expired</div>
 							</div>
 						</div>
 
 						<div class="item">
 							<div class="owl-item-1">
 								<div class="owl-details">
-								<p class="product-vendor">
-									<span>
-										SHOES
-									</span>
-								</p>
-								<h3><a href="#" class="product-title c-primary">Gel Lyte III "Denim" Pack</a></h3>
+									<p class="product-vendor">
+										<span> SHOES </span>
+									</p>
+									<h3><a href="#" class="product-title c-primary">Gel Lyte III "Denim" Pack</a></h3>
 								</div>
-								<img class="feature-images lazy" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
-								<div class=" flex-container">
+								<img
+									class="feature-images lazy"
+									style="width: 100%"
+									src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+									data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+									alt='ASICS Gel Lyte III "Denim" Pack'
+								/>
+								<div class="flex-container">
 									<div class="price-rating">
 										<div class="product-price">from $49.99</div>
 										<div class="product-rating flex-container-right">
@@ -375,24 +450,26 @@
 										</div>
 									</div>
 								</div>
-									<div class="clock mt-4">
-										Expired
-									</div>
+								<div class="clock mt-4">Expired</div>
 							</div>
 						</div>
 
 						<div class="item">
 							<div class="owl-item-1">
 								<div class="owl-details">
-								<p class="product-vendor">
-									<span>
-										SHOES
-									</span>
-								</p>
-								<h3><a href="#" class="product-title c-primary">Lyte III "Denim" Pack</a></h3>
+									<p class="product-vendor">
+										<span> SHOES </span>
+									</p>
+									<h3><a href="#" class="product-title c-primary">Lyte III "Denim" Pack</a></h3>
 								</div>
-								<img class="feature-images lazy" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
-								<div class=" flex-container">
+								<img
+									class="feature-images lazy"
+									style="width: 100%"
+									src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+									data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+									alt='ASICS Gel Lyte III "Denim" Pack'
+								/>
+								<div class="flex-container">
 									<div class="price-rating">
 										<div class="product-price">from $49.99</div>
 										<div class="product-rating flex-container-right">
@@ -404,23 +481,31 @@
 										</div>
 									</div>
 								</div>
-									<div class="clock mt-4">
-										Expired
-									</div>
+								<div class="clock mt-4">Expired</div>
 							</div>
 						</div>
 					</div>
 
-
 					<!-- card end -->
 					<div>
-						<img class="lazy mt-4" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-left.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-left.jpg">
+						<img
+							class="lazy mt-4"
+							style="width: 100%"
+							data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-left.jpg"
+							alt=""
+							src=" //cdn.shopify.com/s/files/1/2506/1620/files/image-left.jpg"
+						/>
 					</div>
 					<h3 class="sections-title mt-5">Latest Products</h3>
 
 					<div class="grid-item clearfix">
 						<div class="grid-img">
-							<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
+							<img
+								class="feature-images lazy"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg"
+								alt='ASICS Gel Lyte III "Denim" Pack'
+							/>
 						</div>
 						<div class="product-content">
 							<div><a href="/products/asics-gel-lyte-iii-denim-pack">ASICS Gel Lyte III "Denim" Pack</a></div>
@@ -430,17 +515,27 @@
 
 					<div class="grid-item clearfix">
 						<div class="grid-img">
-							<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">
+							<img
+								class="feature-images lazy"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+								alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+							/>
 						</div>
 						<div class="product-content">
-							<div><a href="/products/asics-gel-lyte-iii-denim-pack">iNewby 3.3mm Lens 720P HD  WiFi Smart</a></div>
+							<div><a href="/products/asics-gel-lyte-iii-denim-pack">iNewby 3.3mm Lens 720P HD WiFi Smart</a></div>
 							<div class="product-price">$205.00</div>
 						</div>
 					</div>
 
 					<div class="grid-item clearfix">
 						<div class="grid-img">
-							<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" alt="Swivl C Series Robot SW3322-C1">
+							<img
+								class="feature-images lazy"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+								alt="Swivl C Series Robot SW3322-C1"
+							/>
 						</div>
 						<div class="product-content">
 							<div><a href="/products/asics-gel-lyte-iii-denim-pack">Swivl C Series Robot SW3322-C1</a></div>
@@ -450,19 +545,30 @@
 
 					<div class="grid-item clearfix">
 						<div class="grid-img">
-							<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">						</div>
+							<img
+								class="feature-images lazy"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+								alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+							/>
+						</div>
 						<div class="product-content">
-							<div><a href="/products/asics-gel-lyte-iii-denim-pack">iNewby 3.3mm Lens 720P HD  WiFi Smart</a></div>
+							<div><a href="/products/asics-gel-lyte-iii-denim-pack">iNewby 3.3mm Lens 720P HD WiFi Smart</a></div>
 							<div class="product-price">$205.00</div>
 						</div>
 					</div>
 
 					<div class="grid-item clearfix bb mb-5">
 						<div class="grid-img">
-							<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_0cb5dd28-ddaf-4846-ad52-9b0f5e76ba0e_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_0cb5dd28-ddaf-4846-ad52-9b0f5e76ba0e_medium.jpg" alt="Samsung CF591 Series  Curved 27-Inch FHD Monitor">
+							<img
+								class="feature-images lazy"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_0cb5dd28-ddaf-4846-ad52-9b0f5e76ba0e_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_0cb5dd28-ddaf-4846-ad52-9b0f5e76ba0e_medium.jpg"
+								alt="Samsung CF591 Series  Curved 27-Inch FHD Monitor"
+							/>
 						</div>
 						<div class="product-content">
-							<div><a href="/products/asics-gel-lyte-iii-denim-pack">Samsung CF591 Series  Curved 27-Inch FHD Monitor</a></div>
+							<div><a href="/products/asics-gel-lyte-iii-denim-pack">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></div>
 							<div class="product-price">$205.00</div>
 						</div>
 					</div>
@@ -470,7 +576,12 @@
 					<!-- block icon items -->
 					<div class="block-icon-item clearfix">
 						<div class="grid-img">
-							<img class="wd-5" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-1_small.png" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-1_small.png">
+							<img
+								class="wd-5"
+								data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-1_small.png"
+								alt=""
+								src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-1_small.png"
+							/>
 						</div>
 						<div class="product-content">
 							<div class="icon-block">
@@ -482,11 +593,16 @@
 
 					<div class="block-icon-item clearfix">
 						<div class="grid-img">
-							<img class="wd-5" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-2_small.png" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-2_small.png">
+							<img
+								class="wd-5"
+								data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-2_small.png"
+								alt=""
+								src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-2_small.png"
+							/>
 						</div>
 						<div class="product-content">
 							<div class="icon-block">
-								<h3> 30 Days Return</h3>
+								<h3>30 Days Return</h3>
 								<p>If goods have Problems</p>
 							</div>
 						</div>
@@ -494,11 +610,16 @@
 
 					<div class="block-icon-item clearfix">
 						<div class="grid-img">
-							<img class="wd-5" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-3_small.png" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-3_small.png">
+							<img
+								class="wd-5"
+								data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-3_small.png"
+								alt=""
+								src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-3_small.png"
+							/>
 						</div>
 						<div class="product-content">
 							<div class="icon-block">
-								<h3> Secure Payment</h3>
+								<h3>Secure Payment</h3>
 								<p>100% secure payment</p>
 							</div>
 						</div>
@@ -506,11 +627,16 @@
 
 					<div class="block-icon-item clearfix bb mb-5">
 						<div class="grid-img">
-							<img class="wd-5" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-4_small.png" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-4_small.png">
+							<img
+								class="wd-5"
+								data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-4_small.png"
+								alt=""
+								src=" //cdn.shopify.com/s/files/1/2506/1620/files/icon-left-4_small.png"
+							/>
 						</div>
 						<div class="product-content">
 							<div class="icon-block">
-								<h3> 24/7 Support</h3>
+								<h3>24/7 Support</h3>
 								<p>Dedicated support</p>
 							</div>
 						</div>
@@ -525,112 +651,143 @@
 							<!-- testing carousel  -->
 							<div class="row mb-5">
 								<div class="carousel-controls">
-								<div class="owl-carousel owl-carousel-5 owl-theme">
-
-									<div class="item">
-										<div class="block-category-item">
-											<a href="#">
-												<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-1.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-1.jpg">
-											</a>
-											<h5 class="category-block">
+									<div class="owl-carousel owl-carousel-5 owl-theme">
+										<div class="item">
+											<div class="block-category-item">
 												<a href="#">
-													Sports &amp; Outdoors
-										  </a>
-										</h5>
-									    </div>
-									</div>
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-1.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-1.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> Sports &amp; Outdoors </a>
+												</h5>
+											</div>
+										</div>
 
-									<div class="item">
-								    	<div class="block-category-item">
-										<a href="#">
-										<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-2.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-2.jpg">
-										</a>
-										<h5 class="category-block">
-										<a href="#">
-											Beauty &amp; Health
-										</a>
-										</h5>
-									    </div>
-									</div>
+										<div class="item">
+											<div class="block-category-item">
+												<a href="#">
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-2.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-2.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> Beauty &amp; Health </a>
+												</h5>
+											</div>
+										</div>
 
-									<div class="item">
-										<div class="block-category-item">
-										<a href="#">
-										<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg">
-										</a>
-										<h5 class="category-block">
-										<a href="#">
-											House &amp; Appliances
-										</a>
-										</h5>
+										<div class="item">
+											<div class="block-category-item">
+												<a href="#">
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> House &amp; Appliances </a>
+												</h5>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="block-category-item">
+												<a href="#">
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-4.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-4.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> Audio &amp; Music </a>
+												</h5>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="block-category-item">
+												<a href="#">
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> Electronics </a>
+												</h5>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="block-category-item">
+												<a href="#">
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-6.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-6.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> Tech &amp; Smartphone </a>
+												</h5>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="block-category-item">
+												<a href="#">
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> House &amp; Appliances </a>
+												</h5>
+											</div>
+										</div>
+
+										<div class="item">
+											<div class="block-category-item">
+												<a href="#">
+													<img
+														class="lazy"
+														style="width: 100%"
+														data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg"
+														alt=""
+														src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg"
+													/>
+												</a>
+												<h5 class="category-block">
+													<a href="#"> Electronics </a>
+												</h5>
+											</div>
 										</div>
 									</div>
-
-									<div class="item">
-										<div class="block-category-item">
-										<a href="#">
-										<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-4.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-4.jpg">
-										</a>
-										<h5 class="category-block">
-										<a href="#">
-											Audio &amp; Music
-										</a>
-										</h5>
-										</div>
-									</div>
-
-									<div class="item">
-										<div class="block-category-item">
-										<a href="#">
-										<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg">
-										</a>
-										<h5 class="category-block">
-										<a href="#">
-											Electronics
-										</a>
-										</h5>
-										</div>
-									</div>
-
-									<div class="item">
-										<div class="block-category-item">
-										<a href="#">
-										<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-6.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-6.jpg">
-										</a>
-										<h5 class="category-block">
-										<a href="#">
-											Tech &amp; Smartphone
-										</a>
-										</h5>
-										</div>
-									</div>
-
-									<div class="item">
-										<div class="block-category-item">
-										<a href="#">
-										<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-3.jpg">
-										</a>
-										<h5 class="category-block">
-										<a href="#">
-											House &amp; Appliances
-										</a>
-										</h5>
-										</div>
-									</div>
-
-									<div class="item">
-										<div class="block-category-item">
-										<a href="#">
-										<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/category-5.jpg">
-										</a>
-										<h5 class="category-block">
-										<a href="#">
-											Electronics
-										</a>
-										</h5>
-										</div>
-									</div>
-								</div>
 									<!-- <div class="owl-controls">
 										<div class="owl-nav">
 											<div class="owl-next"></div>
@@ -640,7 +797,6 @@
 								</div>
 							</div>
 							<!-- testing end  -->
-
 						</div>
 
 						<ul class="sections-title">
@@ -649,7 +805,6 @@
 							<li class="side-headings">Best Rated</li>
 						</ul>
 
-
 						<!-- first row of cards  -->
 						<div class="row gird-5-item hg-390">
 							<div class="col">
@@ -657,15 +812,19 @@
 								<div class="owl-item-main">
 									<div class="owl-details">
 										<p class="product-vendor">
-											<span>
-												SHOES
-											</span>
+											<span> SHOES </span>
 										</p>
 										<h3><a href="#" class="product-title">ASICS Gel Lyte III "Denim" Pack</a></h3>
 									</div>
-									<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+										alt='ASICS Gel Lyte III "Denim" Pack'
+									/>
 									<button class="btn btn-main">Quick View</button>
-									<div class=" flex-container">
+									<div class="flex-container">
 										<div class="price-rating mt-2">
 											<div class="product-price-main">$49.99</div>
 											<div class="product-rating flex-container-right">
@@ -677,133 +836,148 @@
 											</div>
 										</div>
 									</div>
-										<div class="add-to-cart mt-4 clearfix">
-											<button class="cart-button">ADD TO CART</button>
-											<a class="add-to-wishlists floa-right" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-										</div>
+									<div class="add-to-cart mt-4 clearfix">
+										<button class="cart-button">ADD TO CART</button>
+										<a class="add-to-wishlists floa-right" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+									</div>
 								</div>
 								<!-- main card end  -->
-
 							</div>
 							<div class="col">
 								<div class="owl-item-main">
-								<div class="owl-details">
-									<p class="product-vendor">
-										<span>
-											Electronics
-										</span>
-									</p>
-									<h3><a href="#" class="product-title">Swivl C Series Robot SW3322-C1</a></h3>
-								</div>
-								<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" alt="Swivl C Series Robot SW3322-C1">
-								<button class="btn btn-main">Quick View</button>
-								<div class=" flex-container">
-									<div class="price-rating mt-2">
-										<div class="product-price-main">$50.00</div>
-										<div class="product-rating flex-container-right">
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
+									<div class="owl-details">
+										<p class="product-vendor">
+											<span> Electronics </span>
+										</p>
+										<h3><a href="#" class="product-title">Swivl C Series Robot SW3322-C1</a></h3>
+									</div>
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+										alt="Swivl C Series Robot SW3322-C1"
+									/>
+									<button class="btn btn-main">Quick View</button>
+									<div class="flex-container">
+										<div class="price-rating mt-2">
+											<div class="product-price-main">$50.00</div>
+											<div class="product-rating flex-container-right">
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+											</div>
 										</div>
 									</div>
-								</div>
 									<div class="add-to-cart mt-4">
 										<button class="cart-button">ADD TO CART</button>
 										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
 									</div>
-							</div>
+								</div>
 							</div>
 							<div class="col">
 								<div class="owl-item-main">
-								<div class="owl-details">
-									<p class="product-vendor">
-										<span>
-											macbook
-										</span>
-									</p>
-									<h3><a href="#" class="product-title">Samsung CF591 Series  Curved 27-Inch FHD Monitor</a></h3>
-								</div>
-								<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" alt="Swivl C Series Robot SW3322-C1">
-								<button class="btn btn-main">Quick View</button>
-								<div class=" flex-container">
-									<div class="price-rating mt-2">
-										<div class="product-price-main">$205.00</div>
-										<div class="product-rating flex-container-right">
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
+									<div class="owl-details">
+										<p class="product-vendor">
+											<span> macbook </span>
+										</p>
+										<h3><a href="#" class="product-title">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
+									</div>
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+										alt="Swivl C Series Robot SW3322-C1"
+									/>
+									<button class="btn btn-main">Quick View</button>
+									<div class="flex-container">
+										<div class="price-rating mt-2">
+											<div class="product-price-main">$205.00</div>
+											<div class="product-rating flex-container-right">
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+											</div>
 										</div>
 									</div>
-								</div>
 									<div class="add-to-cart mt-4">
 										<button class="cart-button">ADD TO CART</button>
 										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
 									</div>
-							</div>
+								</div>
 							</div>
 							<div class="col">
 								<div class="owl-item-main">
-								<div class="owl-details">
-									<p class="product-vendor">
-										<span>
-											SHOES
-										</span>
-									</p>
-									<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo  Thermal Label Printer</a></h3>
-								</div>
-								<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
-								<button class="btn btn-main">Quick View</button>
-								<div class=" flex-container">
-									<div class="price-rating mt-2">
-										<div class="product-price-main">$89.00</div>
-										<div class="product-rating flex-container-right">
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
+									<div class="owl-details">
+										<p class="product-vendor">
+											<span> SHOES </span>
+										</p>
+										<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h3>
+									</div>
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg"
+										alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+									/>
+									<button class="btn btn-main">Quick View</button>
+									<div class="flex-container">
+										<div class="price-rating mt-2">
+											<div class="product-price-main">$89.00</div>
+											<div class="product-rating flex-container-right">
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+											</div>
 										</div>
 									</div>
-								</div>
 									<div class="add-to-cart mt-4">
 										<button class="cart-button">ADD TO CART</button>
 										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
 									</div>
-							</div>
+								</div>
 							</div>
 							<div class="col">
 								<div class="owl-item-main">
-								<div class="owl-details">
-									<p class="product-vendor">
-										<span>
-											Aquaracer
-										</span>
-									</p>
-									<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo  Thermal Label Printer</a></h3>
-								</div>
-								<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
-								<button class="btn btn-main">Quick View</button>
-								<div class=" flex-container">
-									<div class="price-rating mt-2">
-										<div class="product-price-main">$250.00</div>
-										<div class="product-rating flex-container-right">
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
-											<i class="far fa-star c-gold"></i>
+									<div class="owl-details">
+										<p class="product-vendor">
+											<span> Aquaracer </span>
+										</p>
+										<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h3>
+									</div>
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+										alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+									/>
+									<button class="btn btn-main">Quick View</button>
+									<div class="flex-container">
+										<div class="price-rating mt-2">
+											<div class="product-price-main">$250.00</div>
+											<div class="product-rating flex-container-right">
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+												<i class="far fa-star c-gold"></i>
+											</div>
 										</div>
 									</div>
-								</div>
 									<div class="add-to-cart mt-4">
 										<button class="cart-button">ADD TO CART</button>
 										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
 									</div>
-							</div>
+								</div>
 							</div>
 						</div>
 
@@ -813,15 +987,19 @@
 								<div class="owl-item-main">
 									<div class="owl-details">
 										<p class="product-vendor">
-											<span>
-												macbook
-											</span>
+											<span> macbook </span>
 										</p>
-										<h3><a href="#" class="product-title">iNewby 3.3mm Lens 720P HD  WiFi Smart</a></h3>
+										<h3><a href="#" class="product-title">iNewby 3.3mm Lens 720P HD WiFi Smart</a></h3>
 									</div>
-									<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+										alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+									/>
 									<button class="btn btn-main">Quick View</button>
-									<div class=" flex-container">
+									<div class="flex-container">
 										<div class="price-rating mt-2">
 											<div class="product-price-main">$205.00</div>
 											<div class="product-rating flex-container-right">
@@ -833,10 +1011,10 @@
 											</div>
 										</div>
 									</div>
-										<div class="add-to-cart mt-4">
-											<button class="cart-button">ADD TO CART</button>
-											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-										</div>
+									<div class="add-to-cart mt-4">
+										<button class="cart-button">ADD TO CART</button>
+										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+									</div>
 								</div>
 							</div>
 
@@ -844,15 +1022,19 @@
 								<div class="owl-item-main">
 									<div class="owl-details">
 										<p class="product-vendor">
-											<span>
-												macbook
-											</span>
+											<span> macbook </span>
 										</p>
-										<h3><a href="#" class="product-title">Samsung CF591 Series  Curved 27-Inch FHD Monitor</a></h3>
+										<h3><a href="#" class="product-title">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
 									</div>
-									<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+										alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+									/>
 									<button class="btn btn-main">Quick View</button>
-									<div class=" flex-container">
+									<div class="flex-container">
 										<div class="price-rating mt-2">
 											<div class="product-price-main">$205.00</div>
 											<div class="product-rating flex-container-right">
@@ -864,10 +1046,10 @@
 											</div>
 										</div>
 									</div>
-										<div class="add-to-cart mt-4">
-											<button class="cart-button">ADD TO CART</button>
-											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-										</div>
+									<div class="add-to-cart mt-4">
+										<button class="cart-button">ADD TO CART</button>
+										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+									</div>
 								</div>
 							</div>
 
@@ -875,15 +1057,19 @@
 								<div class="owl-item-main">
 									<div class="owl-details">
 										<p class="product-vendor">
-											<span>
-												macbook
-											</span>
+											<span> macbook </span>
 										</p>
-										<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi  Connected Laser</a></h3>
+										<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
 									</div>
-									<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" alt="Neato Botvac D3 Wi-Fi  Connected Laser">
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+										alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+									/>
 									<button class="btn btn-main">Quick View</button>
-									<div class=" flex-container">
+									<div class="flex-container">
 										<div class="price-rating mt-2">
 											<div class="product-price-main">$205.00</div>
 											<div class="product-rating flex-container-right">
@@ -895,10 +1081,10 @@
 											</div>
 										</div>
 									</div>
-										<div class="add-to-cart mt-4">
-											<button class="cart-button">ADD TO CART</button>
-											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-										</div>
+									<div class="add-to-cart mt-4">
+										<button class="cart-button">ADD TO CART</button>
+										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+									</div>
 								</div>
 							</div>
 
@@ -906,15 +1092,19 @@
 								<div class="owl-item-main">
 									<div class="owl-details">
 										<p class="product-vendor">
-											<span>
-												aquaracer
-											</span>
+											<span> aquaracer </span>
 										</p>
-										<h3><a href="#" class="product-title">iPATROL RILEY - WiFi Enabled  Mobilized Home</a></h3>
+										<h3><a href="#" class="product-title">iPATROL RILEY - WiFi Enabled Mobilized Home</a></h3>
 									</div>
-									<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p9_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p9_medium.jpg" alt="iPATROL RILEY - WiFi Enabled  Mobilized Home Monitoring Robot">
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p9_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p9_medium.jpg"
+										alt="iPATROL RILEY - WiFi Enabled  Mobilized Home Monitoring Robot"
+									/>
 									<button class="btn btn-main">Quick View</button>
-									<div class=" flex-container">
+									<div class="flex-container">
 										<div class="price-rating mt-2">
 											<div class="product-price-main">$77.00</div>
 											<div class="product-rating flex-container-right">
@@ -926,25 +1116,29 @@
 											</div>
 										</div>
 									</div>
-										<div class="add-to-cart mt-4">
-											<button class="cart-button">ADD TO CART</button>
-											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-										</div>
+									<div class="add-to-cart mt-4">
+										<button class="cart-button">ADD TO CART</button>
+										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+									</div>
 								</div>
 							</div>
 							<div class="col">
 								<div class="owl-item-main">
 									<div class="owl-details">
 										<p class="product-vendor">
-											<span>
-												aquaracer
-											</span>
+											<span> aquaracer </span>
 										</p>
-										<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi  Connected Laser</a></h3>
+										<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
 									</div>
-									<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg" alt="Neato Botvac D3 Wi-Fi  Connected Laser">
+									<img
+										class="feature-images lazy bb"
+										style="width: 100%"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg"
+										alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+									/>
 									<button class="btn btn-main">Quick View</button>
-									<div class=" flex-container">
+									<div class="flex-container">
 										<div class="price-rating mt-2">
 											<div class="product-price-main">$69.00</div>
 											<div class="product-rating flex-container-right">
@@ -956,10 +1150,10 @@
 											</div>
 										</div>
 									</div>
-										<div class="add-to-cart mt-4">
-											<button class="cart-button">ADD TO CART</button>
-											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-										</div>
+									<div class="add-to-cart mt-4">
+										<button class="cart-button">ADD TO CART</button>
+										<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -967,21 +1161,24 @@
 						<h3 class="sections-title mt-5">Best Sellers</h3>
 
 						<div class="row hg-390">
-
 							<div class="owl-carousel owl-theme owl-carousel-5">
 								<div class="item">
 									<div class="owl-item-main">
 										<div class="owl-details">
 											<p class="product-vendor">
-												<span>
-													Aquaracer
-												</span>
+												<span> Aquaracer </span>
 											</p>
-											<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo  Thermal Label Printer</a></h3>
+											<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h3>
 										</div>
-										<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
+										<img
+											class="feature-images lazy bb"
+											style="width: 100%"
+											src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+											data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+											alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+										/>
 										<button class="btn btn-main">Quick View</button>
-										<div class=" flex-container">
+										<div class="flex-container">
 											<div class="price-rating mt-2">
 												<div class="product-price-main">$250.00</div>
 												<div class="product-rating flex-container-right">
@@ -993,25 +1190,29 @@
 												</div>
 											</div>
 										</div>
-											<div class="add-to-cart mt-4">
-												<button class="cart-button">ADD TO CART</button>
-												<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-											</div>
+										<div class="add-to-cart mt-4">
+											<button class="cart-button">ADD TO CART</button>
+											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+										</div>
 									</div>
 								</div>
 								<div class="item">
 									<div class="owl-item-main">
 										<div class="owl-details">
 											<p class="product-vendor">
-												<span>
-													macbook
-												</span>
+												<span> macbook </span>
 											</p>
-											<h3><a href="#" class="product-title">iNewby 3.3mm Lens 720P HD  WiFi Smart</a></h3>
+											<h3><a href="#" class="product-title">iNewby 3.3mm Lens 720P HD WiFi Smart</a></h3>
 										</div>
-										<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">
+										<img
+											class="feature-images lazy bb"
+											style="width: 100%"
+											src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+											data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+											alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+										/>
 										<button class="btn btn-main">Quick View</button>
-										<div class=" flex-container">
+										<div class="flex-container">
 											<div class="price-rating mt-2">
 												<div class="product-price-main">$205.00</div>
 												<div class="product-rating flex-container-right">
@@ -1023,25 +1224,29 @@
 												</div>
 											</div>
 										</div>
-											<div class="add-to-cart mt-4">
-												<button class="cart-button">ADD TO CART</button>
-												<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-											</div>
+										<div class="add-to-cart mt-4">
+											<button class="cart-button">ADD TO CART</button>
+											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+										</div>
 									</div>
 								</div>
 								<div class="item">
 									<div class="owl-item-main">
 										<div class="owl-details">
 											<p class="product-vendor">
-												<span>
-													SHOES
-												</span>
+												<span> SHOES </span>
 											</p>
-											<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo  Thermal Label Printer</a></h3>
+											<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h3>
 										</div>
-										<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
+										<img
+											class="feature-images lazy bb"
+											style="width: 100%"
+											src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg"
+											data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg"
+											alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+										/>
 										<button class="btn btn-main">Quick View</button>
-										<div class=" flex-container">
+										<div class="flex-container">
 											<div class="price-rating mt-2">
 												<div class="product-price-main">$89.00</div>
 												<div class="product-rating flex-container-right">
@@ -1053,25 +1258,29 @@
 												</div>
 											</div>
 										</div>
-											<div class="add-to-cart mt-4">
-												<button class="cart-button">ADD TO CART</button>
-												<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-											</div>
+										<div class="add-to-cart mt-4">
+											<button class="cart-button">ADD TO CART</button>
+											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+										</div>
 									</div>
 								</div>
 								<div class="item">
 									<div class="owl-item-main">
 										<div class="owl-details">
 											<p class="product-vendor">
-												<span>
-													macbook
-												</span>
+												<span> macbook </span>
 											</p>
-											<h3><a href="#" class="product-title">Samsung CF591 Series  Curved 27-Inch FHD Monitor</a></h3>
+											<h3><a href="#" class="product-title">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
 										</div>
-										<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">
+										<img
+											class="feature-images lazy bb"
+											style="width: 100%"
+											src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+											data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+											alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+										/>
 										<button class="btn btn-main">Quick View</button>
-										<div class=" flex-container">
+										<div class="flex-container">
 											<div class="price-rating mt-2">
 												<div class="product-price-main">$205.00</div>
 												<div class="product-rating flex-container-right">
@@ -1083,25 +1292,29 @@
 												</div>
 											</div>
 										</div>
-											<div class="add-to-cart mt-4">
-												<button class="cart-button">ADD TO CART</button>
-												<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-											</div>
+										<div class="add-to-cart mt-4">
+											<button class="cart-button">ADD TO CART</button>
+											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+										</div>
 									</div>
 								</div>
 								<div class="item">
 									<div class="owl-item-main">
 										<div class="owl-details">
 											<p class="product-vendor">
-												<span>
-													macbook
-												</span>
+												<span> macbook </span>
 											</p>
-											<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi  Connected Laser</a></h3>
+											<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
 										</div>
-										<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" alt="Neato Botvac D3 Wi-Fi  Connected Laser">
+										<img
+											class="feature-images lazy bb"
+											style="width: 100%"
+											src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+											data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+											alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+										/>
 										<button class="btn btn-main">Quick View</button>
-										<div class=" flex-container">
+										<div class="flex-container">
 											<div class="price-rating mt-2">
 												<div class="product-price-main">$205.00</div>
 												<div class="product-rating flex-container-right">
@@ -1113,25 +1326,29 @@
 												</div>
 											</div>
 										</div>
-											<div class="add-to-cart mt-4">
-												<button class="cart-button">ADD TO CART</button>
-												<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-											</div>
+										<div class="add-to-cart mt-4">
+											<button class="cart-button">ADD TO CART</button>
+											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+										</div>
 									</div>
 								</div>
 								<div class="item">
 									<div class="owl-item-main">
 										<div class="owl-details">
 											<p class="product-vendor">
-												<span>
-													aquaracer
-												</span>
+												<span> aquaracer </span>
 											</p>
-											<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi  Connected Laser</a></h3>
+											<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
 										</div>
-										<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg" alt="Neato Botvac D3 Wi-Fi  Connected Laser">
+										<img
+											class="feature-images lazy bb"
+											style="width: 100%"
+											src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg"
+											data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg"
+											alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+										/>
 										<button class="btn btn-main">Quick View</button>
-										<div class=" flex-container">
+										<div class="flex-container">
 											<div class="price-rating mt-2">
 												<div class="product-price-main">$69.00</div>
 												<div class="product-rating flex-container-right">
@@ -1143,25 +1360,29 @@
 												</div>
 											</div>
 										</div>
-											<div class="add-to-cart mt-4">
-												<button class="cart-button">ADD TO CART</button>
-												<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-											</div>
+										<div class="add-to-cart mt-4">
+											<button class="cart-button">ADD TO CART</button>
+											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+										</div>
 									</div>
 								</div>
 								<div class="item">
 									<div class="owl-item-main">
 										<div class="owl-details">
 											<p class="product-vendor">
-												<span>
-													macbook
-												</span>
+												<span> macbook </span>
 											</p>
-											<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi  Connected Laser</a></h3>
+											<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
 										</div>
-										<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" alt="Neato Botvac D3 Wi-Fi  Connected Laser">
+										<img
+											class="feature-images lazy bb"
+											style="width: 100%"
+											src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+											data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+											alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+										/>
 										<button class="btn btn-main">Quick View</button>
-										<div class=" flex-container">
+										<div class="flex-container">
 											<div class="price-rating mt-2">
 												<div class="product-price-main">$205.00</div>
 												<div class="product-rating flex-container-right">
@@ -1173,25 +1394,35 @@
 												</div>
 											</div>
 										</div>
-											<div class="add-to-cart mt-4">
-												<button class="cart-button">ADD TO CART</button>
-												<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-											</div>
+										<div class="add-to-cart mt-4">
+											<button class="cart-button">ADD TO CART</button>
+											<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+										</div>
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 
 						<div class="row mt-5">
 							<!-- promo adds -->
 							<div class="col-lg-4">
 								<div class="img-container">
-									<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-1.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-1.jpg">
+									<img
+										class="lazy"
+										style="width: 100%"
+										data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-1.jpg"
+										alt=""
+										src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-1.jpg"
+									/>
 									<div class="img-text-2">
 										<h6 class="c-primary">$645.00 <span>759.99</span></h6>
-										<h4>Sale Up to <strong><b>25%<br>Off</b></strong> Bosch Home</h4>
+										<h4>
+											Sale Up to
+											<strong
+												><b>25%<br />Off</b></strong
+											>
+											Bosch Home
+										</h4>
 										<button class="promo-btn">BUY NOW</button>
 									</div>
 								</div>
@@ -1199,10 +1430,22 @@
 
 							<div class="col-lg-4">
 								<div class="img-container">
-									<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-2.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-2.jpg">
+									<img
+										class="lazy"
+										style="width: 100%"
+										data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-2.jpg"
+										alt=""
+										src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-2.jpg"
+									/>
 									<div class="img-text-2">
 										<h6 class="c-primary">$645.00 <span>759.99</span></h6>
-										<h4>Sale Up to <strong><b>25%<br>Off</b></strong> Bosch Home</h4>
+										<h4>
+											Sale Up to
+											<strong
+												><b>25%<br />Off</b></strong
+											>
+											Bosch Home
+										</h4>
 										<button class="promo-btn">BUY NOW</button>
 									</div>
 								</div>
@@ -1210,39 +1453,51 @@
 
 							<div class="col-lg-4">
 								<div class="img-container">
-									<img class="lazy" style="width: 100%;" data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-3.jpg" alt="" src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-3.jpg">
+									<img
+										class="lazy"
+										style="width: 100%"
+										data-src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-3.jpg"
+										alt=""
+										src=" //cdn.shopify.com/s/files/1/2506/1620/files/three-3.jpg"
+									/>
 									<div class="img-text-2">
 										<h6 class="c-primary">$645.00 <span>759.99</span></h6>
-										<h4>Sale Up to <strong><b>25%<br>Off</b></strong> Bosch Home</h4>
+										<h4>
+											Sale Up to
+											<strong
+												><b>25%<br />Off</b></strong
+											>
+											Bosch Home
+										</h4>
 										<button class="promo-btn">BUY NOW</button>
 									</div>
 								</div>
 							</div>
 						</div>
-
 					</div>
-
-
 				</div>
 			</div>
 
 			<h3 class="sections-title mt-5">Electronics</h3>
 
 			<div class="row mt-5 hg-390">
-
 				<div class="col-lg-2 col-md-4">
 					<div class="owl-item-main">
 						<div class="owl-details">
 							<p class="product-vendor">
-								<span>
-									SHOES
-								</span>
+								<span> SHOES </span>
 							</p>
 							<h3><a href="#" class="product-title">ASICS Gel Lyte III "Denim" Pack</a></h3>
 						</div>
-						<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
+						<img
+							class="feature-images lazy bb"
+							style="width: 100%"
+							src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_large.jpg"
+							alt='ASICS Gel Lyte III "Denim" Pack'
+						/>
 						<button class="btn btn-main">Quick View</button>
-						<div class=" flex-container">
+						<div class="flex-container">
 							<div class="price-rating mt-2">
 								<div class="product-price-main">$49.99</div>
 								<div class="product-rating flex-container-right">
@@ -1254,10 +1509,10 @@
 								</div>
 							</div>
 						</div>
-							<div class="add-to-cart mt-4">
-								<button class="cart-button">ADD TO CART</button>
-								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-							</div>
+						<div class="add-to-cart mt-4">
+							<button class="cart-button">ADD TO CART</button>
+							<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+						</div>
 					</div>
 				</div>
 
@@ -1265,15 +1520,19 @@
 					<div class="owl-item-main">
 						<div class="owl-details">
 							<p class="product-vendor">
-								<span>
-									macbook
-								</span>
+								<span> macbook </span>
 							</p>
-							<h3><a href="#" class="product-title">iNewby 3.3mm Lens 720P HD  WiFi Smart</a></h3>
+							<h3><a href="#" class="product-title">iNewby 3.3mm Lens 720P HD WiFi Smart</a></h3>
 						</div>
-						<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">
+						<img
+							class="feature-images lazy bb"
+							style="width: 100%"
+							src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+							alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+						/>
 						<button class="btn btn-main">Quick View</button>
-						<div class=" flex-container">
+						<div class="flex-container">
 							<div class="price-rating mt-2">
 								<div class="product-price-main">$205.00</div>
 								<div class="product-rating flex-container-right">
@@ -1285,10 +1544,10 @@
 								</div>
 							</div>
 						</div>
-							<div class="add-to-cart mt-4">
-								<button class="cart-button">ADD TO CART</button>
-								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-							</div>
+						<div class="add-to-cart mt-4">
+							<button class="cart-button">ADD TO CART</button>
+							<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+						</div>
 					</div>
 				</div>
 
@@ -1296,15 +1555,19 @@
 					<div class="owl-item-main">
 						<div class="owl-details">
 							<p class="product-vendor">
-								<span>
-									Electronics
-								</span>
+								<span> Electronics </span>
 							</p>
 							<h3><a href="#" class="product-title">Swivl C Series Robot SW3322-C1</a></h3>
 						</div>
-						<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg" alt="Swivl C Series Robot SW3322-C1">
+						<img
+							class="feature-images lazy bb"
+							style="width: 100%"
+							src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_medium.jpg"
+							alt="Swivl C Series Robot SW3322-C1"
+						/>
 						<button class="btn btn-main">Quick View</button>
-						<div class=" flex-container">
+						<div class="flex-container">
 							<div class="price-rating mt-2">
 								<div class="product-price-main">$50.00</div>
 								<div class="product-rating flex-container-right">
@@ -1316,10 +1579,10 @@
 								</div>
 							</div>
 						</div>
-							<div class="add-to-cart mt-4">
-								<button class="cart-button">ADD TO CART</button>
-								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-							</div>
+						<div class="add-to-cart mt-4">
+							<button class="cart-button">ADD TO CART</button>
+							<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+						</div>
 					</div>
 				</div>
 
@@ -1327,15 +1590,19 @@
 					<div class="owl-item-main">
 						<div class="owl-details">
 							<p class="product-vendor">
-								<span>
-									macbook
-								</span>
+								<span> macbook </span>
 							</p>
-							<h3><a href="#" class="product-title">Samsung CF591 Series  Curved 27-Inch FHD Monitor</a></h3>
+							<h3><a href="#" class="product-title">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
 						</div>
-						<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg" alt="iNewby 3.3mm Lens 720P HD  WiFi Smart">
+						<img
+							class="feature-images lazy bb"
+							style="width: 100%"
+							src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+							alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+						/>
 						<button class="btn btn-main">Quick View</button>
-						<div class=" flex-container">
+						<div class="flex-container">
 							<div class="price-rating mt-2">
 								<div class="product-price-main">$205.00</div>
 								<div class="product-rating flex-container-right">
@@ -1347,10 +1614,10 @@
 								</div>
 							</div>
 						</div>
-							<div class="add-to-cart mt-4">
-								<button class="cart-button">ADD TO CART</button>
-								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-							</div>
+						<div class="add-to-cart mt-4">
+							<button class="cart-button">ADD TO CART</button>
+							<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+						</div>
 					</div>
 				</div>
 
@@ -1358,15 +1625,19 @@
 					<div class="owl-item-main">
 						<div class="owl-details">
 							<p class="product-vendor">
-								<span>
-									Aquaracer
-								</span>
+								<span> Aquaracer </span>
 							</p>
-							<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo  Thermal Label Printer</a></h3>
+							<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h3>
 						</div>
-						<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
+						<img
+							class="feature-images lazy bb"
+							style="width: 100%"
+							src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+							alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+						/>
 						<button class="btn btn-main">Quick View</button>
-						<div class=" flex-container">
+						<div class="flex-container">
 							<div class="price-rating mt-2">
 								<div class="product-price-main">$250.00</div>
 								<div class="product-rating flex-container-right">
@@ -1378,10 +1649,10 @@
 								</div>
 							</div>
 						</div>
-							<div class="add-to-cart mt-4">
-								<button class="cart-button">ADD TO CART</button>
-								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-							</div>
+						<div class="add-to-cart mt-4">
+							<button class="cart-button">ADD TO CART</button>
+							<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+						</div>
 					</div>
 				</div>
 
@@ -1389,15 +1660,19 @@
 					<div class="owl-item-main">
 						<div class="owl-details">
 							<p class="product-vendor">
-								<span>
-									macbook
-								</span>
+								<span> macbook </span>
 							</p>
-							<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi  Connected Laser</a></h3>
+							<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
 						</div>
-						<img class="feature-images lazy bb" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg" alt="Neato Botvac D3 Wi-Fi  Connected Laser">
+						<img
+							class="feature-images lazy bb"
+							style="width: 100%"
+							src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+							alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+						/>
 						<button class="btn btn-main">Quick View</button>
-						<div class=" flex-container">
+						<div class="flex-container">
 							<div class="price-rating mt-2">
 								<div class="product-price-main">$205.00</div>
 								<div class="product-rating flex-container-right">
@@ -1409,13 +1684,12 @@
 								</div>
 							</div>
 						</div>
-							<div class="add-to-cart mt-4">
-								<button class="cart-button">ADD TO CART</button>
-								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
-							</div>
+						<div class="add-to-cart mt-4">
+							<button class="cart-button">ADD TO CART</button>
+							<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+						</div>
 					</div>
 				</div>
-
 			</div>
 
 			<div class="row mt-5 mb-5">
@@ -1425,10 +1699,14 @@
 					<div class="owl-carousel owl-carousel-1 owl-theme">
 						<div class="items">
 							<div class="blog-item">
-								<img class="lazyOwl" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/articles/blog3_large.jpg" alt="The Female Body Shape Men Find Most Attractive" style="display: inline;">
-								<div class="blog-time">
-									14 Nov 2017
-								</div>
+								<img
+									class="lazyOwl"
+									style="width: 100%"
+									src="//cdn.shopify.com/s/files/1/2506/1620/articles/blog3_large.jpg"
+									alt="The Female Body Shape Men Find Most Attractive"
+									style="display: inline"
+								/>
+								<div class="blog-time">14 Nov 2017</div>
 								<div class="blog-content">
 									<h4><a href="#" title="">The Female Body Shape Men Find Most Attractive</a></h4>
 									<a href="#" class="btn-readmore">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -1437,10 +1715,14 @@
 						</div>
 						<div class="items">
 							<div class="blog-item">
-								<img class="lazyOwl" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/articles/blog2_large.jpg" alt="The Female Body Shape Men Find Most Attractive" style="display: inline;">
-								<div class="blog-time">
-									14 Nov 2017
-								</div>
+								<img
+									class="lazyOwl"
+									style="width: 100%"
+									src="//cdn.shopify.com/s/files/1/2506/1620/articles/blog2_large.jpg"
+									alt="The Female Body Shape Men Find Most Attractive"
+									style="display: inline"
+								/>
+								<div class="blog-time">14 Nov 2017</div>
 								<div class="blog-content">
 									<h4><a href="#" title="">The 2 Ways A Psychopath’s Brain Is Really Unusual</a></h4>
 									<a href="#" class="btn-readmore">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -1449,10 +1731,14 @@
 						</div>
 						<div class="items">
 							<div class="blog-item">
-								<img class="lazyOwl" style="width: 100%;" src="//cdn.shopify.com/s/files/1/2506/1620/articles/blog1_large.jpg" alt="The Female Body Shape Men Find Most Attractive" style="display: inline;">
-								<div class="blog-time">
-									14 Nov 2017
-								</div>
+								<img
+									class="lazyOwl"
+									style="width: 100%"
+									src="//cdn.shopify.com/s/files/1/2506/1620/articles/blog1_large.jpg"
+									alt="The Female Body Shape Men Find Most Attractive"
+									style="display: inline"
+								/>
+								<div class="blog-time">14 Nov 2017</div>
 								<div class="blog-content">
 									<h4><a href="#" title="">The Personality Trait That Makes People Happier</a></h4>
 									<a href="#" class="btn-readmore">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
@@ -1468,17 +1754,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg"
+										alt='ASICS Gel Lyte III "Denim" Pack'
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>Shoes</span></p>
 									<div><a href="/products/asics-gel-lyte-iii-denim-pack">ASICS Gel Lyte III "Denim" Pack Series</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">from $49.99</div>
 								</div>
@@ -1487,17 +1778,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" alt="Swivl C Series Robot SW3322-C1">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										alt="Swivl C Series Robot SW3322-C1"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>Electronics</span></p>
 									<div><a href="/products/asics-gel-lyte-iii-denim-pack">Swivl C Series Robot SW3322-C1</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$50.00</div>
 								</div>
@@ -1506,17 +1802,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" alt="Swivl C Series Robot SW3322-C1">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										alt="Swivl C Series Robot SW3322-C1"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>macbook</span></p>
-									<div><a href="/products/asics-gel-lyte-iii-denim-pack">Samsung CF591 Series  Curved 27-Inch FHD</a></div>
+									<div><a href="/products/asics-gel-lyte-iii-denim-pack">Samsung CF591 Series Curved 27-Inch FHD</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$205.00</div>
 								</div>
@@ -1525,17 +1826,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg"
+										alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>shoes</span></p>
-									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo  Thermal</a></div>
+									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo Thermal</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$89.99</div>
 								</div>
@@ -1544,17 +1850,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg"
+										alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>Aquaracer</span></p>
-									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo  Thermal</a></div>
+									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo Thermal</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$250.00</div>
 								</div>
@@ -1566,17 +1877,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_small.jpg"
+										alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>Aquaracer</span></p>
-									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo  Thermal</a></div>
+									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo Thermal</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$250.00</div>
 								</div>
@@ -1586,17 +1902,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg" alt="ASICS Gel Lyte III &quot;Denim&quot; Pack">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p20_d77c22e6-5e57-40e8-9338-1cdc4cd80c8f_medium.jpg"
+										alt='ASICS Gel Lyte III "Denim" Pack'
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>Shoes</span></p>
 									<div><a href="/products/asics-gel-lyte-iii-denim-pack">ASICS Gel Lyte III "Denim" Pack Series</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">from $49.99</div>
 								</div>
@@ -1606,17 +1927,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" alt="Swivl C Series Robot SW3322-C1">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										alt="Swivl C Series Robot SW3322-C1"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>macbook</span></p>
-									<div><a href="/products/asics-gel-lyte-iii-denim-pack">Samsung CF591 Series  Curved 27-Inch FHD</a></div>
+									<div><a href="/products/asics-gel-lyte-iii-denim-pack">Samsung CF591 Series Curved 27-Inch FHD</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$205.00</div>
 								</div>
@@ -1626,17 +1952,22 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg" alt="Swivl C Series Robot SW3322-C1">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p15_6b19d4a0-7a28-44c1-a74e-6b08100a8b44_small.jpg"
+										alt="Swivl C Series Robot SW3322-C1"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>Electronics</span></p>
 									<div><a href="/products/asics-gel-lyte-iii-denim-pack">Swivl C Series Robot SW3322-C1</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$50.00</div>
 								</div>
@@ -1646,23 +1977,27 @@
 						<div class="col">
 							<div class="grid-item bb clearfix b-primary">
 								<div class="grid-img">
-									<img class=" feature-images lazy" src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg" alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer">
+									<img
+										class="feature-images lazy"
+										src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg"
+										data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_small.jpg"
+										alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+									/>
 								</div>
 								<div class="product-content">
 									<p class="product-vendor"><span>shoes</span></p>
-									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo  Thermal</a></div>
+									<div><a href="/products/asics-gel-lyte-iii-denim-pack">DYMO LabelWriter 450 Turbo Thermal</a></div>
 									<!-- <div class="product-rating flex-container-right"> -->
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
-										<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
+									<i class="far fa-star c-gold"></i>
 									<!-- </div> -->
 									<div class="product-price">$89.99</div>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -1670,52 +2005,99 @@
 			<div class="row mt-5 mb-5 logo-brands">
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
 
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
 
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-3_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-3_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-3_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-3_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
 
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-1_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
 
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-5_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-5_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-5_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-5_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
 
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-6_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-6_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-6_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-6_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
 
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-7_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-7_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-7_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-7_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
 
 				<div class="col">
 					<a href="#" class="logo-link">
-						<img class="lazy" src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg" data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg" alt="" \="">
+						<img
+							class="lazy"
+							src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg"
+							data-src="//cdn.shopify.com/s/files/1/2506/1620/files/brand-2_medium.jpg"
+							alt=""
+							\=""
+						/>
 					</a>
 				</div>
-
 			</div>
 		</div>
 
@@ -1749,24 +2131,21 @@
 			<div class="row">
 				<div class="col-md-3 mt-8 mb-10">
 					<div class="logo mb-3">Smart<span class="c-primary">Market </span></div>
-					<p>101 E 129th St, East Chicago, <br>IN 46312, US</p>
+					<p>101 E 129th St, East Chicago, <br />IN 46312, US</p>
 					<p>Phone: 001-1234-88888</p>
 					<p>Email: info.deercreative@gmail.com</p>
-					<hr>
-					<address>
-
-						© 2017 All rights reserved. Design by Typostores
-
-					</address>
-					<img class="slide-img lazy"
-						data-src="//cdn.shopify.com/s/files/1/2506/1620/files/paypal_600x.png?v=1509611286" alt=""
-						src="//cdn.shopify.com/s/files/1/2506/1620/files/paypal_600x.png?v=1509611286">
+					<hr />
+					<address>© 2017 All rights reserved. Design by Typostores</address>
+					<img
+						class="slide-img lazy"
+						data-src="//cdn.shopify.com/s/files/1/2506/1620/files/paypal_600x.png?v=1509611286"
+						alt=""
+						src="//cdn.shopify.com/s/files/1/2506/1620/files/paypal_600x.png?v=1509611286"
+					/>
 				</div>
 				<div class="col-md-2 mt-8">
 					<h3 class="module-title mb-6">Find it fast</h3>
 					<ul class="content">
-
-
 						<li><a href="#" title="">Laptop $ Computers</a></li>
 
 						<li><a href="#" title="">Smart Phone &amp; Tablets</a></li>
@@ -1780,14 +2159,11 @@
 						<li><a href="#" title="">Car Electronic &amp; GP5</a></li>
 
 						<li><a href="#" title="">Accesories</a></li>
-
 					</ul>
 				</div>
 				<div class="col-md-2 mt-8">
 					<h3 class="module-title mb-6">Information</h3>
 					<ul class="content">
-
-
 						<li><a href="#" title="">Find a Store</a></li>
 
 						<li><a href="#" title="">About Us</a></li>
@@ -1801,14 +2177,11 @@
 						<li><a href="#" title="">Terms & Conditions</a></li>
 
 						<li><a href="#" title="">Gift Cards</a></li>
-
 					</ul>
 				</div>
 				<div class="col-md-2 mt-8">
 					<h3 class="module-title mb-6">Customer Care</h3>
 					<ul class="content">
-
-
 						<li><a href="#" title="">My Account</a></li>
 
 						<li><a href="#" title="">Order History</a></li>
@@ -1822,19 +2195,15 @@
 						<li><a href="#" title="">FAQs</a></li>
 
 						<li><a href="#" title="">Product Support</a></li>
-
 					</ul>
 				</div>
 				<div class="col-md-3 mt-8">
 					<h3 class="module-title mb-6"><span class="fw-normal">Sign Up to</span> New Letter</h3>
 
-					<div class="small-title">Subscribe our newsletter to get notification about
-						information discount.</div>
+					<div class="small-title">Subscribe our newsletter to get notification about information discount.</div>
 					<div class="input-group mb-3">
-						<input type="text" class="form-control email" placeholder="Enter Email"
-							aria-label="Recipient's username" aria-describedby="button-addon2">
-						<button class="btn btn-outline-secondary btn-custom" type="button"
-							id="button-addon2">SUBSCRIBE</button>
+						<input type="text" class="form-control email" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2" />
+						<button class="btn btn-outline-secondary btn-custom" type="button" id="button-addon2">SUBSCRIBE</button>
 					</div>
 					<div class="footer-icon mb-4">
 						<h5 class="module-title">GET IN TOUCH !</h5>
@@ -1849,7 +2218,7 @@
 							<a href="#" class="h-primary">
 								<i class="fab fa-google-plus-g px-2"></i>
 							</a>
-							 <a href="#" class="h-primary">
+							<a href="#" class="h-primary">
 								<i class="fab fa-instagram px-2"></i>
 							</a>
 						</div>
@@ -1863,9 +2232,7 @@
 		<!-- owl-carousel -->
 		<script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
 		<script type="text/javascript" src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-
-
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="dist/js/script.js"></script>
 	</body>
-
 </html>
