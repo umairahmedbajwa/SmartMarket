@@ -83,6 +83,9 @@ a:hover {
 }
 
 /* helper classes  */
+.pl-0 {
+	padding-left: 0 !important;
+}
 .pl-1 {
 	padding-left: 2px !important;
 }
@@ -127,6 +130,9 @@ a:hover {
 	color: var(--primary) !important;
 	text-decoration: none;
 	transition: all 0.25s;
+}
+.h-d-primary:hover {
+	background-color: #b3331a !important;
 }
 .b-primary:hover {
 	border: 1px solid var(--primary) !important;
@@ -263,6 +269,7 @@ ul.content > li {
 	background-color: var(--primary);
 	color: white;
 	font-size: 14px;
+	font-weight: 500;
 	padding-left: 25px;
 	padding-right: 25px;
 }
@@ -846,6 +853,104 @@ button.owl-next {
 .dropdown-menu > li:first-child {
 	border-top: none;
 }
+
+/* Checkout page  */
+
+.breadcrumb {
+	padding-top: 30px;
+	padding-left: 0;
+	margin: 12px 0 15px;
+	padding-bottom: 30px;
+	background: 0 0;
+	line-height: normal;
+	border-bottom: 1px solid #eee;
+}
+
+.breadcrumb strong {
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.cart-table {
+	border: 1px solid #dfe4e6;
+	width: 100%;
+	display: table;
+	text-indent: initial;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.cart-table thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.cart-table thead tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+.cart-table th {
+	border-bottom: 1px solid #dfe4e6;
+	border-right: 1px solid #e7e7e7;
+	display: table-cell;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	vertical-align: inherit;
+}
+
+.cart-table td {
+	border-bottom: 1px solid #dfe4e6;
+	border-right: 1px solid #e7e7e7;
+	display: table-cell;
+	font-size: 12px;
+	padding: 20px;
+	text-align: left;
+	vertical-align: inherit;
+}
+
+.cart-table .image {
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+.cart-table tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.cart-table .item-quantity {
+	padding: 5px 10px;
+	line-height: 1.35;
+	height: 36px;
+	border: 1px solid #cbcbcb;
+	margin: 0;
+}
+
+.cart-instructions {
+	border: 1px solid #d2d8db;
+	clear: both;
+	display: block;
+	margin-bottom: 21px;
+	min-height: 225px;
+	width: 100%;
+	margin: 0;
+	padding: 0.615384615em;
+}
+
+.cart-buttons {
+	margin: 40px 0;
+	text-align: right;
+}
+
+/* Media queries */
 
 @media only screen and (max-width: 600px) {
 	.container-fluid {
