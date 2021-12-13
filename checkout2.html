@@ -21,14 +21,67 @@
 		<link rel="stylesheet" href="dist/css/style.css" />
 		<link rel="shortcut icon" href="src/images/logo1.png" />
 
-		<title>Home</title>
+		<title>Info</title>
 	</head>
 
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">asda</div>
-				<div class="col-lg-6"></div>
+				<div class="wrap">
+					<div class="col-lg-6 cart-left pr-4">
+						<div class="header-main">
+							<a href="index.html">
+								<span class="heading-1">smartmarket-01</span>
+							</a>
+							<ul class="cart-nav">
+								<li><a href="checkout.html"> Cart </a>&nbsp;<i class="fas fa-chevron-right"></i></li>
+								<li>Information &nbsp;<i class="fas fa-chevron-right"></i></li>
+								<li><a href="#"> Shipping</a> &nbsp;<i class="fas fa-chevron-right"></i></li>
+								<li><a href="#"> Payment</a> &nbsp;<i class="fas fa-chevron-right"></i></li>
+							</ul>
+						</div>
+						<div class="shipping-form">
+							<div class="contact-information">
+								<div class="wrap">
+									<div class="section-title">Contact information</div>
+									<div class="lh-26">Already have an account? <a href="#">Log in</a></div>
+								</div>
+								<div class="field">
+									<input class="form-control field-input" type="text" placeholder="Email or mobile phone number" aria-label="default input example" />
+								</div>
+							</div>
+							<div class="section-title mt-5 mb-4">Shipping address</div>
+							<div class="field">
+								<input class="form-control field-input" type="text" placeholder="Country/region" aria-label="default input example" />
+							</div>
+							<div class="field d-inline field-half">
+								<input class="form-control field-input field-half d-inline" type="text" placeholder="First name (optional)" />
+							</div>
+							<div class="field d-inline field-half">
+								<input class="form-control field-input field-half d-inline" type="text" placeholder="Last name" />
+							</div>
+							<div class="field">
+								<input class="form-control field-input" type="text" placeholder="Address" />
+							</div>
+							<div class="field">
+								<input class="form-control field-input" type="text" placeholder="Apartment, suite, etc. (optional)" />
+							</div>
+							<div class="field">
+								<input class="form-control field-input" type="text" placeholder="city" />
+							</div>
+							<div class="field">
+								<input class="input-checkbox" data-backup="remember_me" type="checkbox" value="1" name="checkout[remember_me]" id="checkout_remember_me" />
+								Save this information for next time
+							</div>
+							<div class="field mt-4 mb-5">
+								<button class="btn btn-black">Continue to shipping</button>
+								<span class="rtn-cart"><a href="checkout.html"> Return to cart</a></span>
+							</div>
+							<hr />
+						</div>
+					</div>
+					<div class="col-lg-6"></div>
+				</div>
 			</div>
 		</div>
 

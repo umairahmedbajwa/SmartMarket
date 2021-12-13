@@ -290,7 +290,7 @@ ul.content > li {
 	border-radius: 50%;
 	display: inline-block;
 	height: 18px;
-	line-height: 12px;
+	line-height: 8px;
 	position: relative;
 	right: 5px;
 	top: -10px;
@@ -950,6 +950,130 @@ button.owl-next {
 	text-align: right;
 }
 
+/* checkout2  */
+.wrap {
+	margin: 0 auto;
+	padding: 0 80px;
+}
+
+.cart-left {
+	padding: 55px 75px 0 0;
+}
+
+.heading-1 {
+	color: #2d2d2d;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.cart-nav {
+	list-style-type: none;
+	margin-top: 10px;
+	padding-left: 0;
+}
+
+.cart-nav li {
+	color: #737373;
+	display: inline-block;
+	font-size: 0.8571428571em;
+	padding-right: 5px;
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.section-title {
+	font-size: 1.2857142857em;
+	line-height: 1.3em;
+}
+
+.lh-26 {
+	line-height: 26px;
+}
+
+.field-input {
+	background-color: white;
+	color: #333333;
+	border: 1px solid #d9d9d9;
+	background-clip: padding-box;
+	border-radius: 5px;
+	font-size: 1rem;
+	display: block;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.9285714286em 0.7857142857em;
+	word-break: normal;
+	line-height: inherit;
+	transition: all 0.2s ease-out;
+}
+
+.field-input:focus {
+	outline: none;
+	border-color: #2d2d2d;
+	-webkit-box-shadow: 0 0 0 1px #2d2d2d;
+	box-shadow: 0 0 0 1px #2d2d2d;
+}
+
+.field {
+	width: 100%;
+	padding: 0.4285714286em 0 !important;
+}
+
+.field-half {
+	width: 49.7% !important;
+}
+
+.field-input-wrapper {
+	position: relative;
+}
+
+.input-checkbox {
+	width: 18px;
+	height: 18px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+	cursor: pointer;
+	vertical-align: -4px;
+	border: 1px solid #a50d0d !important;
+	background-color: black;
+	border-radius: 4px;
+}
+
+.btn-black {
+	cursor: pointer;
+	display: inline-block;
+	background-color: #000000;
+	background-clip: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px transparent solid;
+	border-radius: 5px;
+	color: white;
+	font-weight: 500;
+	padding: 1.4em 1.7em;
+	text-align: center;
+	position: relative;
+}
+
+.btn-black:hover {
+	color: white;
+}
+
+.rtn-cart {
+	padding-left: 15px;
+}
+
+.rtn-cart a:hover {
+	color: black;
+}
 /* Media queries */
 
 @media only screen and (max-width: 600px) {
