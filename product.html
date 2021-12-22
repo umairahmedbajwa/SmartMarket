@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;800&display=swap" rel="stylesheet" />
+
+		<!-- via node-package -->
+		<!-- <link rel="stylesheet" href="node_modules/fontawesome-4.7/css/font-awesome.min.css" /> -->
+		<!-- <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> -->
+		<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- owl-carousel -->
+		<link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+		<!-- <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" /> -->
+
+		<link rel="stylesheet" href="dist/css/style.css" />
+		<link rel="shortcut icon" href="src/images/logo1.png" />
+
+		<title>Product View</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-section">
+				<!-- first nav  -->
+				<div class="container-fluid bg-navGrey mobile-h-40">
+					<div class="row">
+						<div class="col-md-6 flex-container">
+							<div class="header-top">SHOP EVENTS & SAVE UP TO <span class="c-primary">65% OFF!</span></div>
+							<div class="header-top mobile-nav">Call Us: <span class="c-primary">001-1234-88888</span></div>
+						</div>
+						<div class="col-md-6 flex-container-right">
+							<div class="header-top text-right mobile-nav">
+								<span class="px-5"> USD<i class="fa fa-angle-down"></i> </span>
+								<a href="#" class="h-primary">
+									<i class="fab fa-facebook-f px-2"></i>
+								</a>
+								<a href="#" class="h-primary">
+									<i class="fab fa-twitter px-2"></i>
+								</a>
+								<a href="#" class="h-primary">
+									<i class="fab fa-google-plus-g px-2"></i>
+								</a>
+								<a href="#" class="h-primary">
+									<i class="fab fa-instagram px-2"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- second nav  -->
+				<div class="container-fluid mobile-nav">
+					<div class="row">
+						<div class="col-md-3 flex-container">
+							<div class="header-left">
+								<a href="index.html">Smart<span class="c-primary">Market </span></a>
+							</div>
+						</div>
+						<div class="col-md-6 flex-container mobile-nav">
+							<div class="header-mid">
+								<a href="#" class="h-primary"> HOME<i class="fa fa-angle-down pl-1"></i> </a>
+							</div>
+							<div class="header-mid">
+								<a href="#" class="h-primary"> SHOP<i class="fa fa-angle-down pl-1"></i> </a>
+							</div>
+							<div class="header-mid">
+								<a href="#" class="h-primary"> FEATURES<i class="fa fa-angle-down pl-1"></i> </a>
+							</div>
+							<div class="header-mid">
+								<a href="#" class="h-primary"> PAGES<i class="fa fa-angle-down pl-1"></i> </a>
+							</div>
+							<div class="header-mid">
+								<a href="#" class="h-primary"> SPECIAL OFFER </a>
+							</div>
+						</div>
+						<div class="col-md-3 flex-container-right">
+							<div class="header-right"><a href="#" class="h-primary">Login</a> / <a href="#" class="h-primary">Register</a></div>
+						</div>
+					</div>
+				</div>
+				<!-- third nav  -->
+				<!-- codde test navbar -->
+				<nav class="navbar navbar-expand-lg navbar-light bg-light mg-h">
+					<div class="container-fluid">
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarTogglerDemo03"
+							aria-controls="navbarTogglerDemo03"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<i class="fas fa-search"></i>
+						<img src="//cdn.shopify.com/s/files/1/2506/1620/files/logo-1_medium.png" alt="smartmarket-01" />
+						<a href="checkout.html"
+							><i class="far fa-clipboard fa-lg"><span class="badge">0</span></i></a
+						>
+
+						<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Shop</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Features</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Pages</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Special offer</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<!-- teseting -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-2 px-0">
+							<div class="parent-title"><i class="fas fa-bars pr-4 pl-1"></i> ALL DEPARTMENTS</div>
+						</div>
+						<div class="col-md-7 mobile-nav">
+							<div class="input-group mb-3">
+								<input
+									type="text"
+									class="form-control search-input"
+									placeholder="Search Product"
+									aria-label="Recipient's username"
+									aria-describedby="button-addon2"
+								/>
+								<button class="btn btn-outline-secondary btn-search" type="button" id="button-addon2">SEARCH</button>
+							</div>
+						</div>
+						<div class="col-lg-3 text-right right-icons mobile-nav flex-container-right">
+							<a href="#"> <i class="fa fa-truck fa-lg px-2"></i></a>
+							Track your order
+							<a href="#"><i class="far fa-heart fa-lg px-4"></i></a>
+							<a href="checkout.html"
+								><i class="far fa-clipboard fa-lg"><span class="badge">0</span></i></a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container-fluid">
+			<div class="row mb-2">
+				<div class="col-lg-12 pl-0">
+					<div class="breadcrumb">
+						<a href="index.html" title="Back to the frontpage">Home</a>
+						<span class="icon">/</span>
+						<strong>Accusantium Doloremque</strong>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="row images-all">
+						<div class="col-sm-2 col-md-2 hidden-xs">
+							<ul class="product-photo-thumbs">
+								<li class="mt-4"><img src="//cdn.shopify.com/s/files/1/2506/1620/products/p10.jpg?v=1510710559" alt="Accusantium Doloremque" /></li>
+								<li><img src="//cdn.shopify.com/s/files/1/2506/1620/products/p5.jpg?v=1510710559" alt="Accusantium Doloremque" /></li>
+								<li><img src="//cdn.shopify.com/s/files/1/2506/1620/products/p6.jpg?v=1510710559" alt="Accusantium Doloremque" /></li>
+								<li><img src="//cdn.shopify.com/s/files/1/2506/1620/products/p7.jpg?v=1510710559" alt="Accusantium Doloremque" /></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-10 col-md-10">
+							<img
+								id="product-featured-image"
+								class="w-100"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p10.jpg?v=1510710559"
+								alt="Accusantium Doloremque"
+								data-zoom-image="//cdn.shopify.com/s/files/1/2506/1620/products/p10.jpg?v=1510710559"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="hidden-md hidden-lg col-xs-12 product-image-mobile">
+					carousel will be added for mobile view 
+				</div> -->
+
+				<div class="col-md-6 col-sm-6 col-xs-12 product-shop">
+					<div class="mt-4">
+						<header class="product-title">
+							<h2>Accusantium Doloremque</h2>
+						</header>
+						<div class="spr-badge">
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+							<span class="spr-badge-caption">No reviews</span>
+						</div>
+						<div class="prices">
+							<span class="compare-price"><span class="money">$72.00</span></span>
+							<span class="price on-sale"><span class="money">$69.00</span></span>
+						</div>
+						<div class="short-description">
+							Product Description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+							ad minim veniam, quis nostrud exercitation ullamco...
+						</div>
+						<div class="availability">
+							<p class="product-inventory"><label>Availability</label><span>Many in stock</span></p>
+						</div>
+						<div class="fixed-botto">
+							<div class="prices">
+								<span class="compare-price"><span class="money">$72.00</span></span>
+								<span class="price on-sale"><span class="money">$69.00</span></span>
+							</div>
+							<div class="size-guide">
+								<a class="size-guide-open">Size Guide</a>
+							</div>
+							<div class="wrap-qty">
+								<div class="custom-qty">
+									<input type="text" id="quantity" name="quantity" value="1" />
+									<div class="btn-plus">
+										<span class="up-qty"><i class="fa fa-plus"></i></span>
+										<span class="down-qty"><i class="fa fa-minus"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="product-cart clearfix">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="product-tag-view">
+								<div class="product-category">
+									<label>Categories: </label>
+									<a href="#"> all product, </a>
+									<a href="#"> collection, </a>
+									<a href="#"> Smartphone, </a>
+								</div>
+								<div class="product-tag">
+									<label>Tags: </label>
+									<a href="#">Gucci</a>, <a href="#">product_new</a>, <a href="#">Red</a>, <a href="#">XS</a>,
+								</div>
+							</div>
+							<div class="product_socials_wrapper_inner">
+								<div class="header-top text-right">
+									<label>Share Product: </label>
+									<a href="#" class="h-primary">
+										<i class="fab fa-facebook-f px-2"></i>
+									</a>
+									<a href="#" class="h-primary">
+										<i class="fab fa-twitter px-2"></i>
+									</a>
+									<a href="#" class="h-primary">
+										<i class="fab fa-google-plus-g px-2"></i>
+									</a>
+									<a href="#" class="h-primary">
+										<i class="fab fa-instagram px-2"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-lg-12">
+					<div class="product-tabs-title">
+						<ul class="nav nav-tabs">
+							<li class="active">
+								<a href="#">Description</a>
+							</li>
+							<li>
+								<a href="#"> Features </a>
+							</li>
+							<li>
+								<a href="#"> Reviews </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 product-tabs">
+					<h3 class="title">Product Description</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+					<p>
+						<a href="#"
+							><img
+								src="https://cdn.shopify.com/s/files/1/2506/1620/files/image-1_670326f6-58a0-4ace-8098-1a78e296713e.jpg"
+								sizes="(max-width: 1169px) 100vw, 1169px" /></a
+						><br />
+						<br />
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+						nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+						eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis
+						unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+						architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+						dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+						non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					</p>
+				</div>
+			</div>
+
+			<div class="row product-tabs">
+				<div class="col-sm-6">
+					<img src="https://cdn.shopify.com/s/files/1/2506/1620/files/single1-1.jpg" sizes="(max-width: 788px) 100vw, 788px" />
+				</div>
+				<div class="col-sm-6">
+					<div class="text-detail">
+						<h3 class="title">Product information</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+							dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row product-tabs">
+				<div class="col-sm-6">
+					<div class="text-detail">
+						<h3 class="title">An incredible view</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+							dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-6"><img src="https://cdn.shopify.com/s/files/1/2506/1620/files/single2-1.jpg" sizes="(max-width: 786px) 100vw, 786px" /></div>
+			</div>
+
+			<div class="row product-tabs">
+				<div class="col-sm-6">
+					<img class="alignnone wp-image-95 size-full" src="https://cdn.shopify.com/s/files/1/2506/1620/files/sling3-1.jpg" sizes="(max-width: 784px) 100vw, 784px" />
+				</div>
+				<div class="col-sm-6">
+					<div class="text-detail">
+						<h3 class="title">Best option for you!</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+							dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<h3 class="sections-title mt-5">Related Products</h3>
+
+			<div class="row hg-515">
+				<div class="owl-carousel owl-theme owl-carousel-5">
+					<div class="item">
+						<div class="owl-item-main">
+							<div class="owl-details">
+								<p class="product-vendor">
+									<span> Aquaracer </span>
+								</p>
+								<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h3>
+							</div>
+							<img
+								class="feature-images lazy bb"
+								style="width: 100%"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p8_4d94241b-1627-44f0-8601-98e23b6576fd_medium.jpg"
+								alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+							/>
+							<button class="btn btn-main">Quick View</button>
+							<div class="flex-container">
+								<div class="price-rating mt-2">
+									<div class="product-price-main">$250.00</div>
+									<div class="product-rating flex-container-right">
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-cart mt-4">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-item-main">
+							<div class="owl-details">
+								<p class="product-vendor">
+									<span> macbook </span>
+								</p>
+								<h3><a href="#" class="product-title">iNewby 3.3mm Lens 720P HD WiFi Smart</a></h3>
+							</div>
+							<img
+								class="feature-images lazy bb"
+								style="width: 100%"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p12_46cd129b-352e-4b0c-af91-72e93fb58ba8_medium.jpg"
+								alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+							/>
+							<button class="btn btn-main">Quick View</button>
+							<div class="flex-container">
+								<div class="price-rating mt-2">
+									<div class="product-price-main">$205.00</div>
+									<div class="product-rating flex-container-right">
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-cart mt-4">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-item-main">
+							<div class="owl-details">
+								<p class="product-vendor">
+									<span> SHOES </span>
+								</p>
+								<h3><a href="#" class="product-title">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h3>
+							</div>
+							<img
+								class="feature-images lazy bb"
+								style="width: 100%"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p10_4bf04432-dd65-4f7f-975f-8c1680d4b3d1_medium.jpg"
+								alt="DYMO LabelWriter 450 Turbo  Thermal Label Printer"
+							/>
+							<button class="btn btn-main">Quick View</button>
+							<div class="flex-container">
+								<div class="price-rating mt-2">
+									<div class="product-price-main">$89.00</div>
+									<div class="product-rating flex-container-right">
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-cart mt-4">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-item-main">
+							<div class="owl-details">
+								<p class="product-vendor">
+									<span> macbook </span>
+								</p>
+								<h3><a href="#" class="product-title">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h3>
+							</div>
+							<img
+								class="feature-images lazy bb"
+								style="width: 100%"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p19_a2e287c4-6073-41dc-a360-a8c7943fa76a_medium.jpg"
+								alt="iNewby 3.3mm Lens 720P HD  WiFi Smart"
+							/>
+							<button class="btn btn-main">Quick View</button>
+							<div class="flex-container">
+								<div class="price-rating mt-2">
+									<div class="product-price-main">$205.00</div>
+									<div class="product-rating flex-container-right">
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-cart mt-4">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-item-main">
+							<div class="owl-details">
+								<p class="product-vendor">
+									<span> macbook </span>
+								</p>
+								<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
+							</div>
+							<img
+								class="feature-images lazy bb"
+								style="width: 100%"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+								alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+							/>
+							<button class="btn btn-main">Quick View</button>
+							<div class="flex-container">
+								<div class="price-rating mt-2">
+									<div class="product-price-main">$205.00</div>
+									<div class="product-rating flex-container-right">
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-cart mt-4">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-item-main">
+							<div class="owl-details">
+								<p class="product-vendor">
+									<span> aquaracer </span>
+								</p>
+								<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
+							</div>
+							<img
+								class="feature-images lazy bb"
+								style="width: 100%"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p6_16f15875-a033-4079-b044-269ee6d0cf29_medium.jpg"
+								alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+							/>
+							<button class="btn btn-main">Quick View</button>
+							<div class="flex-container">
+								<div class="price-rating mt-2">
+									<div class="product-price-main">$69.00</div>
+									<div class="product-rating flex-container-right">
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-cart mt-4">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="owl-item-main">
+							<div class="owl-details">
+								<p class="product-vendor">
+									<span> macbook </span>
+								</p>
+								<h3><a href="#" class="product-title">Neato Botvac D3 Wi-Fi Connected Laser</a></h3>
+							</div>
+							<img
+								class="feature-images lazy bb"
+								style="width: 100%"
+								src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+								data-src="//cdn.shopify.com/s/files/1/2506/1620/products/p14_medium.jpg"
+								alt="Neato Botvac D3 Wi-Fi  Connected Laser"
+							/>
+							<button class="btn btn-main">Quick View</button>
+							<div class="flex-container">
+								<div class="price-rating mt-2">
+									<div class="product-price-main">$205.00</div>
+									<div class="product-rating flex-container-right">
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+										<i class="far fa-star c-gold"></i>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-cart mt-4">
+								<button class="cart-button">ADD TO CART</button>
+								<a class="add-to-wishlists" href="#" title="Add to wishlist"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer  -->
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-3 mt-8 mb-10">
+					<div class="logo mb-3">Smart<span class="c-primary">Market </span></div>
+					<p>101 E 129th St, East Chicago, <br />IN 46312, US</p>
+					<p>Phone: 001-1234-88888</p>
+					<p>Email: info.deercreative@gmail.com</p>
+					<hr />
+					<address>© 2017 All rights reserved. Design by Typostores</address>
+					<img
+						class="slide-img lazy"
+						data-src="//cdn.shopify.com/s/files/1/2506/1620/files/paypal_600x.png?v=1509611286"
+						alt=""
+						src="//cdn.shopify.com/s/files/1/2506/1620/files/paypal_600x.png?v=1509611286"
+					/>
+				</div>
+				<div class="col-md-2 mt-8">
+					<h3 class="module-title mb-6">Find it fast</h3>
+					<ul class="content">
+						<li><a href="#" title="">Laptop $ Computers</a></li>
+
+						<li><a href="#" title="">Smart Phone &amp; Tablets</a></li>
+
+						<li><a href="#" title="">TV &amp; Audio</a></li>
+
+						<li><a href="#" title="">Cameras &amp; Photography</a></li>
+
+						<li><a href="#" title="">Gadgets</a></li>
+
+						<li><a href="#" title="">Car Electronic &amp; GP5</a></li>
+
+						<li><a href="#" title="">Accesories</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 mt-8">
+					<h3 class="module-title mb-6">Information</h3>
+					<ul class="content">
+						<li><a href="#" title="">Find a Store</a></li>
+
+						<li><a href="#" title="">About Us</a></li>
+
+						<li><a href="#" title="">Contact Us</a></li>
+
+						<li><a href="#" title="">Delivery Information</a></li>
+
+						<li><a href="#" title="">Privacy Policy</a></li>
+
+						<li><a href="#" title="">Terms & Conditions</a></li>
+
+						<li><a href="#" title="">Gift Cards</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 mt-8">
+					<h3 class="module-title mb-6">Customer Care</h3>
+					<ul class="content">
+						<li><a href="#" title="">My Account</a></li>
+
+						<li><a href="#" title="">Order History</a></li>
+
+						<li><a href="#" title="">Wish List</a></li>
+
+						<li><a href="#" title="">Customer Service</a></li>
+
+						<li><a href="#" title="">Returns / Exchange</a></li>
+
+						<li><a href="#" title="">FAQs</a></li>
+
+						<li><a href="#" title="">Product Support</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 mt-8">
+					<h3 class="module-title mb-6"><span class="fw-normal">Sign Up to</span> New Letter</h3>
+
+					<div class="small-title">Subscribe our newsletter to get notification about information discount.</div>
+					<div class="input-group mb-3">
+						<input type="text" class="form-control email" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon3" />
+						<button class="btn btn-outline-secondary btn-custom" type="button" id="button-addon3">SUBSCRIBE</button>
+					</div>
+					<div class="footer-icon mb-4">
+						<h5 class="module-title">GET IN TOUCH !</h5>
+
+						<div class="footer-icon-share">
+							<a href="#" class="h-primary">
+								<i class="fab fa-facebook-f px-2"></i>
+							</a>
+							<a href="#" class="h-primary">
+								<i class="fab fa-twitter px-2"></i>
+							</a>
+							<a href="#" class="h-primary">
+								<i class="fab fa-google-plus-g px-2"></i>
+							</a>
+							<a href="#" class="h-primary">
+								<i class="fab fa-instagram px-2"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jquery  -->
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<!-- owl-carousel -->
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script src="dist/js/script.js"></script>
+	</body>
+</html>
